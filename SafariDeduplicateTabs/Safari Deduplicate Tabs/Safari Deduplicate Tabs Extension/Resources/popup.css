@@ -1,0 +1,124 @@
+:root {
+  color-scheme: light;
+  font-family: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background:
+    radial-gradient(circle at top right, rgba(80, 163, 255, 0.18), transparent 42%),
+    linear-gradient(180deg, #f8fbff 0%, #edf3fa 100%);
+  color: #162033;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 420px;
+  max-width: 420px;
+}
+
+.dialog {
+  padding: 18px;
+}
+
+.dialog__header {
+  margin-bottom: 14px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #4a6588;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.15;
+}
+
+.summary {
+  margin: 8px 0 0;
+  color: #40516d;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.results {
+  border: 1px solid rgba(59, 93, 142, 0.14);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 14px 30px rgba(43, 63, 95, 0.08);
+  overflow: hidden;
+}
+
+.duplicates-list {
+  list-style: none;
+  margin: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.duplicates-list li {
+  border-top: 1px solid rgba(59, 93, 142, 0.1);
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 12px 14px;
+  word-break: break-word;
+}
+
+.duplicates-list li:first-child {
+  border-top: 0;
+}
+
+.empty-state {
+  color: #51637d;
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 0;
+  padding: 16px 14px;
+}
+
+.dialog__footer {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+
+.button {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  min-width: 132px;
+  padding: 10px 15px;
+  transition: transform 120ms ease, opacity 120ms ease, box-shadow 120ms ease;
+}
+
+.button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.button--secondary {
+  background: rgba(219, 229, 241, 0.95);
+  color: #24334f;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, #1570ef 0%, #0e4fb4 100%);
+  box-shadow: 0 10px 22px rgba(16, 87, 192, 0.28);
+  color: #fff;
+}

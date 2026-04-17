@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deduplicate Tabs</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="dialog">
+      <header class="dialog__header">
+        <p class="eyebrow">Current Window</p>
+        <h1>Close duplicate tabs?</h1>
+        <p class="summary" id="summary">
+          Checking this window for repeated URLs...
+        </p>
+      </header>
+
+      <section class="results" aria-live="polite">
+        <ul class="duplicates-list" id="duplicates-list"></ul>
+        <p class="empty-state" id="empty-state" hidden>
+          No duplicate tabs found in this window.
+        </p>
+      </section>
+
+      <footer class="dialog__footer">
+        <button class="button button--secondary" id="cancel-button" type="button">
+          Close
+        </button>
+        <button class="button button--primary" id="confirm-button" type="button" disabled>
+          Close Duplicates
+        </button>
+      </footer>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

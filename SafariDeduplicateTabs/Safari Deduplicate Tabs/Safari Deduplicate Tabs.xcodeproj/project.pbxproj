@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A3067C2F920D0500E62E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3067B2F920D0500E62E20 /* AppDelegate.swift */; };
+		09A306802F920D0500E62E20 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 09A3067E2F920D0500E62E20 /* Main.html */; };
+		09A306822F920D0500E62E20 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A306812F920D0500E62E20 /* Icon.png */; };
+		09A306842F920D0500E62E20 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 09A306832F920D0500E62E20 /* Style.css */; };
+		09A306862F920D0500E62E20 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 09A306852F920D0500E62E20 /* Script.js */; };
+		09A306882F920D0500E62E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A306872F920D0500E62E20 /* ViewController.swift */; };
+		09A3068B2F920D0500E62E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A306892F920D0500E62E20 /* Main.storyboard */; };
+		09A3068D2F920D0600E62E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A3068C2F920D0600E62E20 /* Assets.xcassets */; };
+		09A306942F920D0600E62E20 /* Safari Deduplicate Tabs Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 09A306932F920D0600E62E20 /* Safari Deduplicate Tabs Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09A306992F920D0700E62E20 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A306982F920D0700E62E20 /* SafariWebExtensionHandler.swift */; };
+		09A306A92F920D0700E62E20 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 09A306A52F920D0700E62E20 /* popup.js */; };
+		09A306AA2F920D0700E62E20 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 09A306A62F920D0700E62E20 /* popup.html */; };
+		09A306AB2F920D0700E62E20 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 09A306A72F920D0700E62E20 /* manifest.json */; };
+		09A306AC2F920D0700E62E20 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 09A306A82F920D0700E62E20 /* popup.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A306952F920D0600E62E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A306702F920D0500E62E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A306922F920D0600E62E20;
+			remoteInfo = "Safari Deduplicate Tabs Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09A306A02F920D0700E62E20 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				09A306942F920D0600E62E20 /* Safari Deduplicate Tabs Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09A306782F920D0500E62E20 /* Safari Deduplicate Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Deduplicate Tabs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A3067B2F920D0500E62E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09A3067F2F920D0500E62E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		09A306812F920D0500E62E20 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		09A306832F920D0500E62E20 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		09A306852F920D0500E62E20 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		09A306872F920D0500E62E20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09A3068A2F920D0500E62E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09A3068C2F920D0600E62E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09A3068E2F920D0600E62E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A306932F920D0600E62E20 /* Safari Deduplicate Tabs Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Deduplicate Tabs Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A306982F920D0700E62E20 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		09A3069A2F920D0700E62E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A306A52F920D0700E62E20 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		09A306A62F920D0700E62E20 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		09A306A72F920D0700E62E20 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		09A306A82F920D0700E62E20 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A306752F920D0500E62E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A306902F920D0600E62E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A3066F2F920D0500E62E20 = {
+			isa = PBXGroup;
+			children = (
+				09A3067A2F920D0500E62E20 /* Safari Deduplicate Tabs */,
+				09A306972F920D0700E62E20 /* Safari Deduplicate Tabs Extension */,
+				09A306792F920D0500E62E20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09A306792F920D0500E62E20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A306782F920D0500E62E20 /* Safari Deduplicate Tabs.app */,
+				09A306932F920D0600E62E20 /* Safari Deduplicate Tabs Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09A3067A2F920D0500E62E20 /* Safari Deduplicate Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				09A3067B2F920D0500E62E20 /* AppDelegate.swift */,
+				09A306872F920D0500E62E20 /* ViewController.swift */,
+				09A306892F920D0500E62E20 /* Main.storyboard */,
+				09A3068C2F920D0600E62E20 /* Assets.xcassets */,
+				09A3068E2F920D0600E62E20 /* Info.plist */,
+				09A3067D2F920D0500E62E20 /* Resources */,
+			);
+			path = "Safari Deduplicate Tabs";
+			sourceTree = "<group>";
+		};
+		09A3067D2F920D0500E62E20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09A3067E2F920D0500E62E20 /* Main.html */,
+				09A306812F920D0500E62E20 /* Icon.png */,
+				09A306832F920D0500E62E20 /* Style.css */,
+				09A306852F920D0500E62E20 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		09A306972F920D0700E62E20 /* Safari Deduplicate Tabs Extension */ = {
+			isa = PBXGroup;
+			children = (
+				09A306A42F920D0700E62E20 /* Resources */,
+				09A306982F920D0700E62E20 /* SafariWebExtensionHandler.swift */,
+				09A3069A2F920D0700E62E20 /* Info.plist */,
+			);
+			path = "Safari Deduplicate Tabs Extension";
+			sourceTree = "<group>";
+		};
+		09A306A42F920D0700E62E20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09A306A52F920D0700E62E20 /* popup.js */,
+				09A306A62F920D0700E62E20 /* popup.html */,
+				09A306A72F920D0700E62E20 /* manifest.json */,
+				09A306A82F920D0700E62E20 /* popup.css */,
+			);
+			name = Resources;
+			path = "Safari Deduplicate Tabs Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09A306772F920D0500E62E20 /* Safari Deduplicate Tabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A306A12F920D0700E62E20 /* Build configuration list for PBXNativeTarget "Safari Deduplicate Tabs" */;
+			buildPhases = (
+				09A306742F920D0500E62E20 /* Sources */,
+				09A306752F920D0500E62E20 /* Frameworks */,
+				09A306762F920D0500E62E20 /* Resources */,
+				09A306A02F920D0700E62E20 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A306962F920D0600E62E20 /* PBXTargetDependency */,
+			);
+			name = "Safari Deduplicate Tabs";
+			packageProductDependencies = (
+			);
+			productName = "Safari Deduplicate Tabs";
+			productReference = 09A306782F920D0500E62E20 /* Safari Deduplicate Tabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09A306922F920D0600E62E20 /* Safari Deduplicate Tabs Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A3069D2F920D0700E62E20 /* Build configuration list for PBXNativeTarget "Safari Deduplicate Tabs Extension" */;
+			buildPhases = (
+				09A3068F2F920D0600E62E20 /* Sources */,
+				09A306902F920D0600E62E20 /* Frameworks */,
+				09A306912F920D0600E62E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari Deduplicate Tabs Extension";
+			packageProductDependencies = (
+			);
+			productName = "Safari Deduplicate Tabs Extension";
+			productReference = 09A306932F920D0600E62E20 /* Safari Deduplicate Tabs Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09A306702F920D0500E62E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					09A306772F920D0500E62E20 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					09A306922F920D0600E62E20 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 09A306732F920D0500E62E20 /* Build configuration list for PBXProject "Safari Deduplicate Tabs" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09A3066F2F920D0500E62E20;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09A306792F920D0500E62E20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09A306772F920D0500E62E20 /* Safari Deduplicate Tabs */,
+				09A306922F920D0600E62E20 /* Safari Deduplicate Tabs Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09A306762F920D0500E62E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A306822F920D0500E62E20 /* Icon.png in Resources */,
+				09A3068B2F920D0500E62E20 /* Main.storyboard in Resources */,
+				09A306862F920D0500E62E20 /* Script.js in Resources */,
+				09A306802F920D0500E62E20 /* Main.html in Resources */,
+				09A3068D2F920D0600E62E20 /* Assets.xcassets in Resources */,
+				09A306842F920D0500E62E20 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A306912F920D0600E62E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A306AC2F920D0700E62E20 /* popup.css in Resources */,
+				09A306A92F920D0700E62E20 /* popup.js in Resources */,
+				09A306AB2F920D0700E62E20 /* manifest.json in Resources */,
+				09A306AA2F920D0700E62E20 /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A306742F920D0500E62E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A306882F920D0500E62E20 /* ViewController.swift in Sources */,
+				09A3067C2F920D0500E62E20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A3068F2F920D0600E62E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A306992F920D0700E62E20 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A306962F920D0600E62E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A306922F920D0600E62E20 /* Safari Deduplicate Tabs Extension */;
+			targetProxy = 09A306952F920D0600E62E20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09A3067E2F920D0500E62E20 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A3067F2F920D0500E62E20 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		09A306892F920D0500E62E20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A3068A2F920D0500E62E20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09A3069B2F920D0700E62E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09A3069C2F920D0700E62E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		09A3069E2F920D0700E62E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safari Deduplicate Tabs Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Deduplicate Tabs Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.afcbs.SafariDeduplicateTabs.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		09A3069F2F920D0700E62E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safari Deduplicate Tabs Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Deduplicate Tabs Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.afcbs.SafariDeduplicateTabs.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		09A306A22F920D0700E62E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safari Deduplicate Tabs/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Deduplicate Tabs";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.afcbs.SafariDeduplicateTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		09A306A32F920D0700E62E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safari Deduplicate Tabs/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Deduplicate Tabs";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.afcbs.SafariDeduplicateTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A306732F920D0500E62E20 /* Build configuration list for PBXProject "Safari Deduplicate Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A3069B2F920D0700E62E20 /* Debug */,
+				09A3069C2F920D0700E62E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A3069D2F920D0700E62E20 /* Build configuration list for PBXNativeTarget "Safari Deduplicate Tabs Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A3069E2F920D0700E62E20 /* Debug */,
+				09A3069F2F920D0700E62E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A306A12F920D0700E62E20 /* Build configuration list for PBXNativeTarget "Safari Deduplicate Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A306A22F920D0700E62E20 /* Debug */,
+				09A306A32F920D0700E62E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09A306702F920D0500E62E20 /* Project object */;
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Safari Deduplicate Tabs",
+  "version": "1.0.0",
+  "description": "Find duplicate tabs in the current Safari window and close all but one for each URL.",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Deduplicate Tabs",
+    "default_popup": "popup.html"
+  }
+}
