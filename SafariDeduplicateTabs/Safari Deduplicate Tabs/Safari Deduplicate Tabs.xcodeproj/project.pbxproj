@@ -21,6 +21,7 @@
 		09A306AA2F920D0700E62E20 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 09A306A62F920D0700E62E20 /* popup.html */; };
 		09A306AB2F920D0700E62E20 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 09A306A72F920D0700E62E20 /* manifest.json */; };
 		09A306AC2F920D0700E62E20 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 09A306A82F920D0700E62E20 /* popup.css */; };
+		09A306AD2F920D0700E62E20 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 09A306AE2F920D0700E62E20 /* icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		09A306A62F920D0700E62E20 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
 		09A306A72F920D0700E62E20 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
 		09A306A82F920D0700E62E20 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		09A306AE2F920D0700E62E20 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		09A306A42F920D0700E62E20 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				09A306AE2F920D0700E62E20 /* icons */,
 				09A306A52F920D0700E62E20 /* popup.js */,
 				09A306A62F920D0700E62E20 /* popup.html */,
 				09A306A72F920D0700E62E20 /* manifest.json */,
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A306AD2F920D0700E62E20 /* icons in Resources */,
 				09A306AC2F920D0700E62E20 /* popup.css in Resources */,
 				09A306A92F920D0700E62E20 /* popup.js in Resources */,
 				09A306AB2F920D0700E62E20 /* manifest.json in Resources */,
@@ -428,6 +432,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8468N4SVQZ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -462,6 +467,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8468N4SVQZ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -499,6 +505,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8468N4SVQZ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -540,6 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8468N4SVQZ;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
