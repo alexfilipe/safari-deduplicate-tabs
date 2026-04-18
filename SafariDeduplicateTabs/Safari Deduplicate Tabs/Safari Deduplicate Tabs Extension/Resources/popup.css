@@ -21,6 +21,19 @@ body {
   padding: 18px;
 }
 
+.dialog--message-only .dialog__header,
+.dialog--message-only .results,
+.dialog--message-only .dialog__footer {
+  display: none;
+}
+
+.dialog--message-only {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 180px;
+}
+
 .dialog__header {
   margin-bottom: 14px;
 }
@@ -81,6 +94,15 @@ h1 {
   line-height: 1.45;
   margin: 0;
   padding: 16px 14px;
+}
+
+.single-message {
+  color: #24334f;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
 }
 
 .dialog__footer {

@@ -4,10 +4,13 @@ const TITLE_LIMIT = 72;
 const URL_LIMIT = 84;
 
 const summaryElement = document.getElementById("summary");
+const titleElement = document.getElementById("title");
 const duplicatesListElement = document.getElementById("duplicates-list");
 const emptyStateElement = document.getElementById("empty-state");
 const confirmButton = document.getElementById("confirm-button");
 const cancelButton = document.getElementById("cancel-button");
+const dialogElement = document.querySelector(".dialog");
+const singleMessageElement = document.getElementById("single-message");
 
 let duplicateGroups = [];
 
@@ -88,12 +91,19 @@ function renderDuplicateGroups(groups) {
   duplicatesListElement.replaceChildren();
 
   if (groups.length === 0) {
+    titleElement.textContent = "No duplicates found";
+    dialogElement.classList.add("dialog--message-only");
+    singleMessageElement.hidden = false;
+    singleMessageElement.textContent = "No duplicates were found in this window.";
     confirmButton.disabled = true;
     emptyStateElement.hidden = false;
-    summaryElement.textContent = "No duplicate URLs found. Nothing needs to be closed.";
+    emptyStateElement.textContent = "No duplicates were found in this window.";
     return;
   }
 
+  titleElement.textContent = "Close duplicate tabs?";
+  dialogElement.classList.remove("dialog--message-only");
+  singleMessageElement.hidden = true;
   emptyStateElement.hidden = true;
   confirmButton.disabled = false;
 
