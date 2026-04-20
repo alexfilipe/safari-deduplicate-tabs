@@ -94,10 +94,10 @@ function renderDuplicateGroups(groups) {
     titleElement.textContent = "No duplicates found";
     dialogElement.classList.add("dialog--message-only");
     singleMessageElement.hidden = false;
-    singleMessageElement.textContent = "No duplicates were found in this window.";
+    singleMessageElement.textContent = "No duplicate tabs were found in this window.";
     confirmButton.disabled = true;
     emptyStateElement.hidden = false;
-    emptyStateElement.textContent = "No duplicates were found in this window.";
+    emptyStateElement.textContent = "No duplicate tabs were found in this window.";
     return;
   }
 
